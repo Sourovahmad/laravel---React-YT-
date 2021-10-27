@@ -1,19 +1,27 @@
-import logo from './logo.svg';
+
+import { BrowserRouter, Route,Switch } from 'react-router-dom';
 import './App.css';
-import Test from './Components/Test/Test';
+import Home from './Components/Home/Home';
+import Notfound from './Components/NotFound/Notfound';
 
 function App() {
   return (
-    <div className="App">
+    <div>
 
+     <BrowserRouter>
+            <Switch>
 
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-          <Test></Test>
-      </header>
+                <Route exact path="/">
+                  <Home></Home>
+                </Route>
+
+                <Route exact path="*">
+                  <Notfound></Notfound>
+                </Route>
+
+            </Switch>
+     </BrowserRouter>
+
     </div>
   );
 }

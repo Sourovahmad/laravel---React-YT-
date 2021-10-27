@@ -1,0 +1,50 @@
+#HeaderSection{
+    background-color: aliceblue;
+    height: auto;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+
+.singleIcons{
+    margin: 6px;
+    padding: 4px;
+}
+
+.singleIcons i{
+    font-size: 28px;
+}
+
+.beforeSearchicon{
+    margin-left: 18px;
+}
+
+.afterSearchIcon{
+    margin-right: 18px;
+    /* display: flex;
+    align-items: center; */
+}
+
+.rightSideIconSection{
+    display: flex;
+    align-items: center;
+}
+
+.searchInputFild{
+    margin: 0 auto;
+}
+#inputFild{
+
+    border-radius: 19px;
+    height: 43px;
+    width: 411px;
+
+}
+
+#searchButton{
+    height: 48px;
+    margin-left: -65px;
+    border-radius: 18px !important;
+}
