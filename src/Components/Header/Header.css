@@ -1,10 +1,11 @@
 #HeaderSection{
-    background-color: aliceblue;
+    background-color: #f0f5f9;
     height: auto;
     width: 100%;
     margin-top: 10px;
     display: flex;
     align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
 }
 
 
